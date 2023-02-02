@@ -27,12 +27,12 @@ Voici le résultat :
 
 ## Partie 7 
 
-Dans cette partie, nosu devons calculer le temps que va mettre une requete pour chercher une ville précise. \
+Dans cette partie, nous devons calculer le temps que va mettre une requete pour chercher une ville précise. \
 Vous trouverez la fonction qui fait cela sous le nom `display_temps_acces`. 
 
 Nous avons calculer le temps moyen pour la ville d'Annecy : 0.025117158889770508 secondes.
 
-Il est interessant de remarquer que plus la ville est loi dans le dataset, plus le temps de récupération est moindre.
+Il est interessant de remarquer que plus la ville est loin dans le dataset, plus le temps de récupération est faible.
 
 Nous avons également calculer le temps moyens de lecture pour les 100 première ville et voici le résultat: 
 0.00040010929107666017 secondes.
@@ -51,7 +51,7 @@ L'unicité pourrait etre possible, mais les données ne sont pas tres propres et
 
 Quand on ré-execute le programme de la partie 7,on obtiens ce temps pour la ville d'Annecy : 0.024588823318481445 sc
 C'est donc environ 0.006 sc plus rapide.
-Mais comme il n'y a pas beaucoup de données , le gain n'est pas vraiement significatif. Au bout de 10 000 requete, il y aurait deja un gain plus intérressant.
+Mais comme il n'y a pas beaucoup de données , le gain n'est pas vraiement significatif.
 
 
 ## Partie 9
@@ -145,7 +145,7 @@ Résultat :
 {"_id": new ObjectId("63dbba37637fbf6430bb6643"), "name": "Mailing-List 1", "users": [new ObjectId("63dbb8f0637fbf6430bb663b"), new ObjectId("63dbb8f0637fbf6430bb663c")]}
 ```
 
-Pour choper toutes les infos, nous avons remarqué que `populate` n'existe pas en python. C'est la fonction `display_mailing_list` qui va s'occuper de cela \
+Pour avoir toutes les infos, nous avons remarqué que `populate` n'existe pas en python. C'est la fonction `display_mailing_list` qui va s'occuper de cela \
 Voici le résultat de la commande : 
 
 ```js
