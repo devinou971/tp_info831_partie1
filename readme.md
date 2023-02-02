@@ -7,8 +7,6 @@ MALACARNE Etienne
 
 Dans cette partie, nous avons juste setup l'environnement de travail pour ce tp. Nous utilisons docker, du coup il y avait pas mal de commande à faire, mais ça va.
 
-Voici un screenshot d'une commande pour montrer que tout fonctionne :
-mettre image ici db count
 
 ## Partie 6 
 
