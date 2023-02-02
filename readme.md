@@ -206,6 +206,16 @@ db.mapreduceexample.find()
 Voici les résultats :
 ![](images/4.png)
 
+Pour la suite de la question, on change la fonction de map:
+```js
+var mapFunction = function() {
+    if (this.nom_commune[0] == "A" && this.code_region == 84) emit(this.nom_commune, 1);
+}
+```
+
+Résultat : \
+![](images/6.png)
+
 ## Part 14
 
 Cette partie concernait la sauvegarde et la restauration des données. \
